@@ -1,0 +1,77 @@
+<style>
+    #fondo{
+        /* background-color: #ECF0F1;*/
+        background-color: #283747;
+    }
+    #header{
+        padding: 3% ;
+        background-color: #255E98;
+        color: white;
+        text-align: center;
+    }
+    #footer{
+        background-color: #7FB3D5;
+        color: white;
+    }
+    .column {
+      float: left;
+      width: 50%;
+    }
+    .column7 {
+      float: left;
+      width: 60%;
+    }
+    .column3 {
+      float: left;
+      width: 33%;
+    }
+    .column4 {
+      float: left;
+      width: 25%;
+    }
+/* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="fondo">
+
+    <div style="position: absolute; background-color:black; width: 25%; height: 100%;margin: 2%;">
+        <img src="assets/IMG_0021.png" style="width: 70%; height: auto; margin: 15%;">
+    </div> 
+    <header id="header">
+        <div class="row">
+            <div class="column3">
+                <p>jjjj</p>
+            </div>
+            <div class="column7">
+                <h2 style="text-align: center">Bogar Alberto Luna Martínez</h2>
+            </div>
+        </div>
+    </header>
+
+    <h1><script src="scripts/main.js"></script></h1>
+
+    <footer id="footer">
+        <div class="row">
+            <h2 style="text-align: center;">Contacto</h2>
+            <div class="column">
+              <h3 style="text-align: right; margin-right: 5%;">Telefono:</h2>
+            </div>
+            <div class="column">
+                <h3 style="margin-left: 5%;">123456</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
